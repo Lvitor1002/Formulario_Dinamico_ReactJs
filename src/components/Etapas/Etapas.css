@@ -1,0 +1,72 @@
+.controleEtapas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+   
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+.etapas{
+    min-width: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 20px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.etapas i{
+    color:  rgb(16, 122, 1);
+    font-size: 1.5rem;
+
+}
+.linha{
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    color: rgba(182, 253, 176, 0);
+}
+.ativoLinha{
+    color: rgb(6, 61, 1);
+}
+.etapas p{
+    color:  rgba(0, 0, 0, 0.5);
+    font-size: .9rem;
+}
+.ativoEtapa{
+    background-color: rgba(13, 100, 2, 0.452);
+}
+.ativoEtapa i{
+    color: rgb(183, 253, 176);
+}
+.ativoEtapa p{
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    
+    .etapas p{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 490px){
+    .etapas{
+        min-width: 80px;
+        padding: 2% 44px;
+    }
+    .etapas p{
+        font-size: 12px;
+    }
+    .linha{
+        font-size: 2rem;
+    }
+}

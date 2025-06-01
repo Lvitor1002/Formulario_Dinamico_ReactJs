@@ -1,0 +1,28 @@
+npx create-vite@latest formulario_react_js --template react
+  npm install
+  npm run dev
+
+
+Para gerenciamento de rotas: npm install react-router-dom
+
+
+
+btnEditar.classList.replace("bi-pencil-fill", "bi-check-lg")
+
+
+Alertas ->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+icones -> 
+
+npm i bootstrap-icons
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+
+https://www.youtube.com/watch?v=PRSruHX_eig&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&index=47
+
+min: 41

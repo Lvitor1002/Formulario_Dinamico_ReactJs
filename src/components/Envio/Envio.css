@@ -1,0 +1,60 @@
+
+.controleEnvio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.controleEnvio h2{
+    padding: 20px 0;
+    font-size: 2rem;
+    color: rgb(11, 122, 0)
+}
+.controleEnvio p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: rgb(212, 0, 0)
+}
+.controleEnvio h3{
+    padding: 20px 0;
+    font-size: 1.5rem;
+    color: rgba(10, 122, 0, 0.5)
+}
+
+.resumo{
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0px 0px 9px -4px black;
+    max-width: 100%;
+    
+    
+}
+.resumo p{
+    color: rgba(0, 0, 0, 0.651);
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.comentario-texto {
+  word-wrap: break-word;      /* Quebra palavras longas */
+  overflow-wrap: break-word;  /* Garante quebra em qualquer lugar */
+  white-space: pre-wrap;      /* Mantém quebras de linha e espaços */
+  max-width: 100%;            /* Garante que não ultrapasse o container */
+  
+  /* Adicione estas linhas para melhorar a aparência */
+  padding: 10px;
+  background-color:transparent;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}

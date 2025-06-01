@@ -1,0 +1,98 @@
+
+.controle{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% 0;
+}
+.controleVizualizarForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: ease-in 2s;
+}
+
+.controleEmogis{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.controleEmogis label{
+    display: flex;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+    margin: 0 10px;
+    text-align: center;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.404);
+    transition: all 1s;
+}
+.controleEmogis label:active{
+    transform: scale(1.09);
+    color: rgb(122, 240, 122);
+    transition-duration: 0s;
+}
+.controleEmogis label i{
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    font-size: 2rem;
+    transition: all 1s;
+}
+.controleEmogis label i:hover{
+    color: rgb(0, 221, 18);
+    transition-duration: 0s;
+}
+.controleEmogis input{
+    opacity: 0;
+    position: relative;
+    top: -15px;
+}
+
+
+.controleComentario{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.controleComentario label{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.541);
+}
+.controleComentario textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1rem;
+    margin: 10px 0;
+    resize: none;
+    outline: none;
+}
+
+@media screen and (max-width: 600px){
+    .controleVizualizarForm{
+        flex-direction: column;
+    }
+    .controleEmogis label{
+        font-size: 1.2rem;
+    }
+    
+}
